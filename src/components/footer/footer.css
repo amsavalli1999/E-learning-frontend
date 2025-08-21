@@ -1,0 +1,39 @@
+footer{
+    background-color: #8a5baf;
+    color: white;
+    padding: 20px 0;
+    align-items: center;
+    bottom: 0;
+
+
+    .footer-content{
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+
+        p{
+            margin: 0;
+            font-size: 14px;
+        }
+        a{
+            text-decoration: none;
+            color: inherit
+        }
+        .social-links{
+            margin-top: 10px;
+
+            a{
+                color: white;
+                font-size: 18px;
+                margin: 0 10px;
+                text-decoration: none;
+                transition: color 0.3s ease;
+                &:hover{
+                    color: white;
+                }
+
+
+            }
+        }
+    }
+}
